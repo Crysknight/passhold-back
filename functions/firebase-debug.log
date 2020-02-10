@@ -1,0 +1,25 @@
+[debug] [2020-02-10T14:52:36.386Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T14:52:36.388Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\crysknife\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-02-10T14:52:36.388Z] CLI Version:   7.12.1
+[debug] [2020-02-10T14:52:36.388Z] Platform:      win32
+[debug] [2020-02-10T14:52:36.388Z] Node Version:  v12.13.1
+[debug] [2020-02-10T14:52:36.389Z] Time:          Mon Feb 10 2020 17:52:36 GMT+0300 (GMT+03:00)
+[debug] [2020-02-10T14:52:36.389Z] ----------------------------------------------------------------------
+[debug] [2020-02-10T14:52:36.389Z] 
+[debug] [2020-02-10T14:52:36.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-10T14:52:36.397Z] > authorizing via signed-in user
+[debug] [2020-02-10T14:52:36.397Z] [iam] checking project passhold-8195f for permissions ["firebase.projects.get"]
+[debug] [2020-02-10T14:52:36.398Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/passhold-8195f:testIamPermissions  
+
+[debug] [2020-02-10T14:52:37.423Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-10T14:52:37.424Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/passhold-8195f  
+ 
+[debug] [2020-02-10T14:52:37.646Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\projects\pet\passhold\back\functions" for Cloud Functions...
+[debug] [2020-02-10T14:52:40.175Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-10T14:52:40.175Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-10T14:52:40.175Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-10T14:52:40.176Z] [worker-~diagnostic~-c4085edb-815a-4297-9260-8e730e7848b9]: Assigning socketPath: \\?\pipe\C:\projects\pet\passhold\back\functions\6012
+[debug] [2020-02-10T14:52:40.176Z] [worker-~diagnostic~-c4085edb-815a-4297-9260-8e730e7848b9]: BUSY
