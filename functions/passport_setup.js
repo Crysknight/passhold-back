@@ -1,6 +1,6 @@
 const passport = require('passport');
 
-const { Google } = require('./strategies');
+const { Google, LinkedIn } = require('./strategies');
 const { db } = require('./utils');
 
 passport.serializeUser((user, done) => {
@@ -17,3 +17,4 @@ passport.deserializeUser(async (id, done) => {
 });
 
 passport.use(Google);
+passport.use(LinkedIn);

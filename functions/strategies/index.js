@@ -1,3 +1,4 @@
 module.exports = {
-  Google: require('./Google')
+  Google: require('./Google'),
+  LinkedIn: require('./LinkedIn')
 };
